@@ -1,0 +1,11 @@
+{
+  "name": "neo4j-webinar",
+  "version": "1.0.0",
+  "description": "neo4j webinar resources",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd neo4j-queries && npm start"
+  },
+  "author": "",
+  "license": "ISC"
+}

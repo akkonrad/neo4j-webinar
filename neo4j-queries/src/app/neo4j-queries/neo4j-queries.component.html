@@ -1,0 +1,21 @@
+<mat-accordion>
+  <ng-container *ngFor="let query of queries; let i = index">
+    <mat-expansion-panel [expanded]="step === i" (opened)="setStep(i)">
+      <mat-expansion-panel-header>
+        <mat-panel-title> {{query.name}}</mat-panel-title>
+      </mat-expansion-panel-header>
+      <div class="query">
+        <pre class="code">
+          {{query.query}}
+        </pre>
+
+        <button mat-icon-button color="accent" [cdkCopyToClipboard]="query.query">
+          <mat-icon>content_copy</mat-icon>
+        </button>
+      </div>
+      <mat-action-row>
+        <button mat-button color="accent" (click)="nextStep()">Next</button>
+      </mat-action-row>
+    </mat-expansion-panel>
+  </ng-container>
+</mat-accordion>

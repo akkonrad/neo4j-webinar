@@ -1,0 +1,3 @@
+.idea
+neo4j-graphql-example/.env
+**/node_modules

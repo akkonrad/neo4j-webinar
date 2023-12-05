@@ -1,0 +1,40 @@
+{
+  "name": "neo4j-graphql-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "license": "AGPL-version-3.0",
+  "private": false,
+  "engines": {
+    "node": ">= 18.18.2",
+    "npm": ">= 9.8.1"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": "",
+  "keywords": [],
+  "author": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "contributors": [],
+  "scripts": {
+    "start": "node index.js",
+    "dev": "",
+    "test": ""
+  },
+  "dependencies": {
+    "@apollo/server": "^4.9.5",
+    "@neo4j/graphql": "^4.4.4",
+    "graphql": "^16.8.1",
+    "neo4j-driver": "^5.15.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1"
+  }
+}

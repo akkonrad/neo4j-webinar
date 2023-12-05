@@ -1,0 +1,17 @@
+.query {
+  background-color: #555;
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  .code {
+    flex: 1;
+  }
+}
+
+
+.view {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+}
