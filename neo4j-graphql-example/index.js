@@ -32,6 +32,7 @@ type Movie {
 
 // Authenticated Neo4j Token
 const authToken = neo4j.auth.basic(process.env.NEO4J_USER, process.env.NEO4J_PASSWORD);
+
 // Driver instance of Neo4j connection
 const driver = neo4j.driver(process.env.NEO4J_URI, authToken);
 

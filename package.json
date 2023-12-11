@@ -4,7 +4,8 @@
   "description": "neo4j webinar resources",
   "main": "index.js",
   "scripts": {
-    "start": "cd neo4j-queries && npm start"
+    "start": "cd neo4j-queries && npm start",
+    "start:graphql": "cd neo4j-graphql-example && npm start"
   },
   "author": "",
   "license": "ISC"
